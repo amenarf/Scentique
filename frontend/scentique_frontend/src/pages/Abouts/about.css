@@ -1,0 +1,47 @@
+.about {
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif; 
+    background-color: #f4f9f4;  /* Light green background */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+}
+
+.about h1 {
+    color: #2e6a47;  /* Dark green for headings */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about h2 {
+    color: #4d8a5c;  /* Medium green for subheadings */
+    font-size: 1.8em;
+    margin-top: 30px;
+}
+
+.about p {
+    color: #4d6d46;  /* Muted green for paragraph text */
+    margin-bottom: 20px;
+    line-height: 1.6; 
+    font-size: 1.1em;
+}
+
+.about a {
+    color: #2e6a47;  /* Matching dark green for links */
+    text-decoration: underline; 
+}
+
+.about a:hover {
+    color: #4d8a5c;  /* Slightly lighter green on hover */
+}
+
+.about-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px auto; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); 
+}

@@ -1,0 +1,128 @@
+.footer {
+    background-color: transparent; /* Set the background to transparent */
+    color: #000; /* Change text color to black */
+    padding: 40px 0;
+    font-family: "Arial", sans-serif;
+}
+
+.logo {
+    width: 250px; /* Adjust the width for a balanced logo size */
+    height: auto; /* Maintains the aspect ratio */
+    margin-bottom: 20px; /* More balanced spacing at the bottom */
+    margin-top: -15px; /* Lift the logo slightly for a more centered appearance */
+}
+
+body {
+    background-image: url('../../assets/bg.jpg');
+    background-size: cover; /* Ensures the image fully covers the viewport */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Fixes the image during scroll */
+    background-repeat: no-repeat; /* Prevents tiling/repeating of the image */
+    margin: 0; /* Removes any default margin */
+    padding: 0; /* Removes any default padding */
+    height: 100vh; /* Ensures the body takes up the full viewport height */
+    width: 100vw; /* Ensures the body takes up the full viewport width */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%; /* Full width */
+    padding: 0 20px; /* Spacing on the sides */
+    box-sizing: border-box; /* Include padding in total width */
+}
+
+.footer-branding,
+.footer-links-section,
+.footer-contact-section {
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    font-size: 36px; /* Increase font size for prominence */
+    font-weight: bold;
+    margin-bottom: 15px; /* Slightly more space for clarity */
+}
+
+.footer-description {
+    font-size: 18px; /* Larger font size for better readability */
+    line-height: 1.8; /* Increased line height for better readability */
+    margin-bottom: 20px; /* Spacing to separate from other content */
+}
+
+.footer-social-icons {
+    display: flex;
+    gap: 15px; /* Increased gap for better spacing */
+    margin-top: 15px;
+}
+
+.footer-icon {
+    font-size: 20px; /* Slightly larger for better visibility */
+    color: #000; /* Icon color to black */
+    text-decoration: none;
+    padding: 12px;
+    background-color: #1b5e20;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.footer-icon:hover {
+    background-color: #43a047; /* Hover effect for better contrast */
+}
+
+.footer-section-heading {
+    font-size: 24px; /* Larger for readability and emphasis */
+    font-weight: 600;
+    margin-bottom: 15px; /* More space between heading and content */
+}
+
+.footer-link-list {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-link {
+    color: #000; /* Change link color to black */
+    text-decoration: none;
+    font-size: 18px; /* Larger font for improved readability */
+    margin-bottom: 10px; /* More space between links */
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #2e7d32; /* Green color on hover */
+}
+
+.footer-contact-item {
+    font-size: 18px; /* Increased font size for better clarity */
+    margin-bottom: 10px; /* More space for readability */
+}
+
+.footer-bottom-bar {
+    text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.2); /* Change to black */
+    padding: 15px 0; /* More padding for spacing */
+    margin-top: 30px; /* More space above for separation */
+}
+
+.footer-copyright {
+    font-size: 16px; /* Slightly larger font size for clarity */
+    color: rgba(0, 0, 0, 0.7); /* Black with reduced opacity for subtlety */
+}
+
+.footer-icon {
+    color: #4CAF50; /* Green color */
+    font-size: 26px; /* Adjusted size for prominence */
+    margin-right: 15px; /* More space between icons */
+    transition: color 0.3s;
+}
+
+.footer-icon:hover {
+    color: #2E7D32; /* Darker green on hover */
+}

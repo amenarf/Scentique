@@ -1,0 +1,104 @@
+/* Full page container with centered content */
+.full-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Full viewport width */
+    min-height: 100vh; /* Full viewport height */
+    background: url('../../assets/bgg.webp') no-repeat center center;
+    background-size: cover; /* Ensure the background image covers the entire container */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Fix the background image */
+    padding: 20px; /* Optional: add padding around the form */
+    box-sizing: border-box; /* Ensure padding is inside the container */
+}
+
+/* Contact form container */
+.contact {
+    padding: 20px;
+    max-width: 2000px; /* Adjusted width */
+    width: 60%; /* Ensure it is responsive */
+    margin: 0 auto; /* Center the container */
+    font-family: 'Arial', sans-serif;
+    background-color: rgba(249, 249, 249, 0.9); /* Slight transparency to let background image show through */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Ensure padding is inside the container */
+}
+
+/* Heading styles */
+.contact h1 {
+    color: #000; /* Changed to black */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Paragraph styles */
+.contact p {
+    color: #333; /* Darker gray for better contrast */
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Form group styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Label styles */
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #000; /* Changed to black */
+    font-weight: bold;
+}
+
+/* Input and Textarea fields */
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box; /* Ensure padding is inside the field */
+}
+
+/* Focused input and textarea */
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #3ba959eb;
+    outline: none;
+    box-shadow: 0 0 5px rgba(170, 234, 119, 0.795);
+}
+
+/* Textarea specific styles */
+.form-group textarea {
+    height: 150px;
+}
+
+/* Button styles */
+button {
+    padding: 12px 20px;
+    background-color: #41814b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+    box-sizing: border-box; /* Ensure padding is inside the button */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-1px);
+}
+
+/* Button active effect */
+button:active {
+    transform: translateY(1px);
+}

@@ -1,0 +1,98 @@
+[
+{
+    "model": "database.category",
+    "pk": 2,
+    "fields": {
+        "name": "Floral",
+        "image": "https://perfumedom.com/wp-content/uploads/2021/11/floral-fragrance-oils.jpg"
+    }
+},
+{
+    "model": "database.category",
+    "pk": 3,
+    "fields": {
+        "name": "Woody",
+        "image": "https://www.scentdecant.com/cdn/shop/collections/woody-colognes-header-homepage_1800x.jpg?v=1660025892"
+    }
+},
+{
+    "model": "database.category",
+    "pk": 4,
+    "fields": {
+        "name": "Citrus",
+        "image": "https://eliaparfum.com/cdn/shop/products/Elia-Jan2022-0785_684x1024.jpg?v=1663355031"
+    }
+},
+{
+    "model": "database.category",
+    "pk": 5,
+    "fields": {
+        "name": "Oriental",
+        "image": "https://mlzzlzuuhyfw.i.optimole.com/cb:HVbE.61eae/w:800/h:800/q:mauto/f:best/https://rjfragrances.pk/wp-content/uploads/2024/03/Oriental-RJFragrances-Labdanum-Saffron.png"
+    }
+},
+{
+    "model": "database.category",
+    "pk": 6,
+    "fields": {
+        "name": "Fruity",
+        "image": "https://zaoud.it/cdn/shop/collections/fruity-perfume-bottle-surrounding-by-peach-mango-with-orange-blossom-at-background.jpg?v=1707833069"
+    }
+},
+{
+    "model": "database.category",
+    "pk": 7,
+    "fields": {
+        "name": "Aquatic",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/maison-francis-kurkdjian-aqua-celestia-cologne-forte-eau-de-parfum-tif-65aaa4637d6af.jpg?crop=1.00xw:1.00xh;0,0&resize=640:*"
+    }
+},
+{
+    "model": "database.category",
+    "pk": 8,
+    "fields": {
+        "name": "Men",
+        "image": "https://img.freepik.com/premium-vector/icon-men-s-perfume-stylish-modern-badge-men-s-perfume-logotype-men-s-perfume_418019-206.jpg"
+    }
+},
+{
+    "model": "database.category",
+    "pk": 9,
+    "fields": {
+        "name": "Kids",
+        "image": "https://m.media-amazon.com/images/I/61VN3XqSIfL._AC_UF1000,1000_QL80_.jpg"
+    }
+},
+{
+    "model": "database.category",
+    "pk": 10,
+    "fields": {
+        "name": "Women",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbWFWee6_QzHfjVhe14XRcyQjsbHCgOH5B6A&s"
+    }
+},
+{
+    "model": "database.category",
+    "pk": 11,
+    "fields": {
+        "name": "Amber",
+        "image": "https://scenttrunk.com/cdn/shop/products/GourmandAmber.jpg?v=1636572999&width=1800"
+    }
+},
+{
+    "model": "database.category",
+    "pk": 12,
+    "fields": {
+        "name": "Office",
+        "image": "https://fimgs.net/mdimg/perfume/375x500.55166.jpg"
+    }
+},
+{
+    "model": "database.category",
+    "pk": 13,
+    "fields": {
+        "name": "Date Night",
+        "image": "https://josbeautystore.com/wp-content/uploads/2021/06/WhatsApp-Image-2021-05-12-at-11.14.00-PM.jpeg"
+    }
+}
+]

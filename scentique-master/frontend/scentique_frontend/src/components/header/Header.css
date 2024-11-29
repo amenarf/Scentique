@@ -1,0 +1,42 @@
+.header {
+    height: 34vw;
+    margin: 30px auto;
+    background: url('../../assets/header_img.jpg') no-repeat;
+    background-size: cover; /* This makes the image cover the entire area */
+    background-position: center; /* Centers the image in the div */
+    position: relative;
+    border-radius: 15px; /* Adjust the value to control how round the corners are */
+}
+
+
+.header-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width:50% ;
+    bottom: 10%;
+    left: 6vw;
+    animation:fadeIn 3s ;
+    padding-bottom: 50px;
+}
+.header-contents h2 {
+    font-weight: 500;
+    color: white;
+    font-size: max(4.5vw,22px);
+
+}
+.header-contents p{
+    color: white;
+    font: size 1vw;
+}
+.header-contents button{
+    border: none;
+    color:#747474 ;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: white;
+    font-size: maw(1vw,13px);
+    border-radius: 50px;
+}
